@@ -75,16 +75,22 @@
             <div class="contact_section_2 layout_padding">
                <div class="row">
                   <div class="col-md-6">
-                     <div class="contact_main">
+                     <div class="contact_main">                        
                         <META HTTP-EQUIV="Content-type" CONTENT="text/html; charset=UTF-8">
-                        <form action="https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8" method="POST">                           
-                           <input type=hidden name="oid" value="00D2v000000XGlm">
-                           <input type=hidden name="retURL" value="file:///D:/Amit/html/index.html">                           
-                           <input  id="first_name" class="mail_text" placeholder="Full Name" maxlength="40" name="first_name" size="30" type="text" /><br>                           
-                           <input  id="phone" class="mail_text" placeholder="Phone Number" maxlength="40" name="phone" size="20" type="text" /><br>                           
-                           <input  id="email" class="mail_text" placeholder="Email" maxlength="80" name="email" size="20" type="text" /><br>                           
-                           <textarea class="massage-bt" placeholder="Massage" rows="5" name="description"></textarea><br>                           
-                           <input type="submit" name="Send">                           
+                        <form action="https://webto.salesforce.com/servlet/servlet.WebToCase?encoding=UTF-8" method="POST" onsubmit="return ValidateForm()">
+                        <input type=hidden name="orgid" value="00D2w00000RqUJN">
+                        <input type=hidden name="retURL" value="http://file:///D:/Amit/html/index.html">         
+                        <input  class="mail_text" id="name" placeholder="Contact Name" maxlength="80" name="name" size="20" type="text" /><br>   
+                        <input  class="mail_text" id="email" placeholder="Email" maxlength="80" name="email" size="20" type="text" /><br>   
+                        <input  class="mail_text" id="phone" placeholder="Phone" maxlength="40" name="phone" size="20" type="text" /><br>                           
+                        <select class="mail_text" name="00N2w00000XvKgf" id="00N2w00000XvKgf">
+                           <option value="" selected="selected">You are a</option>
+                         </select>                        
+                         <select class="mail_text" name="00N2w00000ZyLi1" id="00N2w00000ZyLi1">
+                           <option value="" selected="selected">Case Query</option>
+                         </select>
+                         <textarea class="massage-bt" placeholder="Description" name="description"></textarea><br>   
+                         <input type="submit" name="submit">   
                         </form>
                      </div>
                   </div>                  
@@ -135,6 +141,7 @@
       <!-- sidebar -->
       <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
       <script src="js/custom.js"></script>
+      <script src="js/form.js"></script>
       <!-- javascript --> 
       <script src="js/owl.carousel.js"></script>
       <script src="https:cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.js"></script>

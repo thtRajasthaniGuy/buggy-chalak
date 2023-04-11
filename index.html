@@ -33,66 +33,6 @@
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" media="screen">
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-
-      <script>
-    
-         var subjectObject = {
-
-                  "Customer": [
-                  "--None--",
-                  "How to join Happygo as a Driver",
-                  "Driver Account Activation Request",
-                  " Driver Account Deactivation Request",
-                  "Document Change Request",
-                  "Mobile Number change Request",
-                  "Unable to Login to Rapido Driver Account",
-                  "I need help to register as a captain",
-                  "Other"    
-                  ],
-                  "Rider": [
-                  "--None--",
-                  "Driver Behaviour",
-                  "Account Activation/Deactivation Request",
-                  "Driver Appreciation",
-                  "Ride Fare Related",
-                  "Collaboration",
-                  "Ride Payment Related",
-                  "Unable to Login",
-                  "Unable to request ride",
-                  "Other"
-                  ]                
-              },
-         topicDefaultOption = new Option("--None--", "");
-         
-         window.onload = function() {
-           var subjectSel = document.getElementById("00N2w00000XvKgf");
-           var topicSel = document.getElementById("00N2w00000ZyLi1");
-           topicSel.style.visibility="hidden";
-                     
-           for (var x in subjectObject) {
-             subjectSel.options[subjectSel.options.length] = new Option(x, x);
-           }
-           
-            subjectSel.onchange = function() {
-
-               topicSel.length = 0;                            
-               topicSel.options.add(topicDefaultOption);
-               if(this.value === "") {
-                  topicSel.options.add(topicDefaultOption);
-
-               }else {
-                  document.getElementById("00N2w00000ZyLi1").style.visibility ="visible";
-                  topicSel.style.visibility="visible";
-                  for (var y in subjectObject[this.value]) {
-                     topicSel.options.add(new Option(subjectObject[this.value][y], y));
-                  }
-               }
-               
-            }          
-         }
-      </script>         
-
-
       
    </head>
    <body> 
