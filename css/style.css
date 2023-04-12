@@ -722,13 +722,13 @@ input.mail_text::placeholder {
     border-radius: 6px;
     color: #727272;
     width: 100%;
-    font-size: 18px;
+    font-size: 16px;
     background-color: #ffff;
     padding: 55px 15px 15px 15px;
     border: 0px;
-    height: 167px;
+    height: 150px;
     margin-top: 20px;
-   font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 textarea#comment::placeholder {
     color: #727272;
@@ -1048,5 +1048,10 @@ textarea#comment::placeholder {
 
 .ride_form {
     text-align: center;
+}
+
+.column {
+    float: left;
+    width: 100%;
 }
 /* copyright section end */

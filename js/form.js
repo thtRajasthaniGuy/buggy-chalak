@@ -20,13 +20,13 @@ function ValidateForm() {
 
 var caseCreator = {
 
-   "Customer": [
+   "Captain": [
       "How to join Happygo as a Driver",
       "Driver Account Activation Request",
-      " Driver Account Deactivation Request",
+      "Driver Account Deactivation Request",
       "Document Change Request",
       "Mobile Number change Request",
-      "Unable to Login to Rapido Driver Account",
+      "Unable to Login to HappyGo Driver Account",
       "I need help to register as a captain",
       "Other"
    ],
