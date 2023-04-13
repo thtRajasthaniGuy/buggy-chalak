@@ -1050,8 +1050,15 @@ textarea#comment::placeholder {
     text-align: center;
 }
 
-.column {
-    float: left;
-    width: 100%;
+@media (min-width:250px) {
+    .form_col {
+        column-count: 1;
+        margin: 30px;
+    }
+}
+@media (min-width:900px) {
+    .form_col {
+        column-count: 2;
+    }
 }
 /* copyright section end */
