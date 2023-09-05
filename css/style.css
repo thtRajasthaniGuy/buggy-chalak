@@ -474,20 +474,20 @@ button {
     background-size: 100%;
     background-repeat: no-repeat;
 }
-.work_title{
+.work_taital {
     width: 40%;
     float: left;
     font-size: 40px;
-    color: #0f0f0f;
+    color: #ffffff;
     font-weight: bold;
     font-family: 'Roboto', sans-serif;
 }
-.work_title::after {
+.work_taital::after {
     content: '';
     position: absolute;
     width: 193px;
     height: 2px;
-    background-color: #0f0f0f;
+    background-color: #ffffff;
     left: initial;
     right: 0px;
     top: 44%;
@@ -508,7 +508,6 @@ button {
     float: left;
     font-size: 16px;
     color: #ffffff;
-    background-color: #181818;
     text-align: center;
     padding: 10px 0px;
     font-family: 'Roboto', sans-serif;
@@ -519,7 +518,7 @@ button {
 }
 .work_bt:hover {
     color: #ffffff;
-    background-color: #13a25d;
+    background-color: #9cb1a7;
 }
 .work_icon_box {
     width: 150px;
@@ -528,6 +527,20 @@ button {
     box-shadow: 0px 0px 2px 2px #edf0f2;
     border-radius: 3px;
     margin-top: 30px;
+}
+.work_selection_text{
+    width: 100%;
+    font-size: 20px;
+    color: #ffffff;
+    font-weight: bold;
+    padding-top: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+.work_ipsum_text {
+    width: 68%;
+    font-size: 15px;
+    color: #ffffff;
+    margin: 0px;
 }
 
 /* How it Works section start */
