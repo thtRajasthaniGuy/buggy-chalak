@@ -465,6 +465,31 @@ button {
 }
 
 /* about section end */
+/* Count section start */
+
+.count_box {
+    width: 100%;
+    float: left;
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px 0px;
+    font-family: 'Roboto', sans-serif;
+    border: 2px solid #ffffff;;
+    border-radius: 12px;
+    padding: 5px;
+    margin: 10px;
+}
+.count_box:hover {
+    color: #ffffff;
+    background-color: #9cb1a7;
+}
+.count_box2 {
+    margin: 110px;
+}
+
+/* Count section start */
+
 /* How it Works section start */
 
 .work_section{
