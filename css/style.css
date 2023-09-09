@@ -543,7 +543,7 @@ button {
     background-color: #9cb1a7;
 }
 .work_icon_box {
-    width: 150px;
+    width: 250px;
     padding: 10px;
     background-color: #fff;
     box-shadow: 0px 0px 2px 2px #edf0f2;
@@ -563,6 +563,17 @@ button {
     font-size: 15px;
     color: #ffffff;
     margin: 0px;
+}
+
+@media (min-width:250px) {
+    .work_selection_left {
+        margin-left: 50px;
+    }
+}
+@media (min-width:900px) {
+    .work_selection_left {
+       margin-left: 1px;
+    }
 }
 
 /* How it Works section start */
