@@ -1,3 +1,5 @@
+/*
+NOT USE THIS FILE PLEASE REMOVE IT
 function changeWorkView(id) {
 
    const riders_section = document.getElementById("riders_section");
@@ -23,6 +25,7 @@ function changeWorkView(id) {
    }
 }
 
+
 window.onload = function () {
 
    const riders_section = document.getElementById("riders_section");
@@ -37,4 +40,4 @@ window.onload = function () {
    captains_section.style.display = "None";
    captains_section1.style.display = "None";
    captains_section2.style.display = "None";
-}
+}*/
