@@ -1263,3 +1263,7 @@ textarea#comment::placeholder {
     }
 }
 /* copyright section end */
+
+ul.a {
+    list-style-type: circle;
+  }
