@@ -1170,22 +1170,21 @@ textarea#comment::placeholder {
     padding-right: 15px;
 }
 
-.subscribe_bt {
+.Privacy_bt {
     width: 170px;
     float: left;
     margin-top: 20px;
 }
 
-.subscribe_bt a {
+.Privacy_bt a {
     width: 100%;
     float: left;
     font-size: 20px;
-    color: #13a25d;
-    background-color: transparent;
-    text-transform: uppercase;
-}
-.subscribe_bt a:hover {
     color: #ffffff;
+    background-color: transparent;
+}
+.Privacy_bt a:hover {
+    color: #13a25d;
 }
 /* footer section end */
 
