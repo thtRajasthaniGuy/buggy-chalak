@@ -543,7 +543,7 @@ button {
     background-color: #9cb1a7;
 }
 .work_icon_box {
-    width: 250px;
+    width: 150px;
     padding: 10px;
     background-color: #FCF6F5;
     box-shadow: 0px 0px 2px 2px #edf0f2;
@@ -670,6 +670,17 @@ button {
   
 /* services section start */
 
+@media (min-width:250px) {
+    .services_section_left {
+        margin-left: 100px;
+    }
+}
+@media (min-width:900px) {
+    .services_section_left {
+       margin-left: 1px;
+    }
+}
+
 .services_section{
     width: 100%;
     float: left;
@@ -710,7 +721,7 @@ button {
     padding-bottom: 50px;
 }
 .icon_box {
-    width: 100px;
+    width: 150px;
     padding: 10px;
     background-color: #FCF6F5;
     box-shadow: 0px 0px 2px 2px #edf0f2;
