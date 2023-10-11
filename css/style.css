@@ -681,7 +681,7 @@ button {
     width: 40%;
     float: left;
     font-size: 40px;
-    color: #0f0f0f;
+    color: #ffffff;
     font-weight: bold;
     font-family: 'Roboto', sans-serif;
 }
@@ -690,10 +690,19 @@ button {
     position: absolute;
     width: 193px;
     height: 2px;
-    background-color: #0f0f0f;
+    background-color: #ffffff;
     left: initial;
     right: 0px;
     top: 44%;
+}
+.services_text {
+    width: 100%;
+    float: left;
+    font-size: 16px;
+    color: #ffffff;
+    margin: 0px;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
 }
 .services_section_2 {
     width: 100%;
@@ -701,7 +710,7 @@ button {
     padding-bottom: 50px;
 }
 .icon_box {
-    width: 70px;
+    width: 100px;
     padding: 10px;
     background-color: #fff;
     box-shadow: 0px 0px 2px 2px #edf0f2;
@@ -715,7 +724,7 @@ button {
 .selection_text{
     width: 100%;
     font-size: 20px;
-    color: #0f0f0f;
+    color: #ffffff;
     font-weight: bold;
     padding-top: 20px;
     font-family: 'Roboto', sans-serif;
@@ -723,7 +732,7 @@ button {
 .ipsum_text {
     width: 68%;
     font-size: 15px;
-    color: #0f0f0f;
+    color: #ffffff;
     margin: 0px;
 }
 
