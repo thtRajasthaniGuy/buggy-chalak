@@ -141,6 +141,13 @@
 .banner_main {
     width: 55%;
 }
+.privacy_title {
+    width: 40%;
+}
+.questions_taital{
+    width: 40%;
+}
+
 .about_taital {
     width: 40%;
 }
@@ -191,6 +198,13 @@
 .navbar-expand-lg .navbar-nav .nav-link{
   text-align: center;
 }
+.privacy_title {
+    width: 55%;
+}
+.questions_taital{
+    width: 55%;
+}
+
 .about_taital {
     width: 55%;
 }
@@ -274,6 +288,20 @@
 }
 .banner_text {
     font-size: 14px;
+}
+.privacy_title {
+    width: 60%;
+    font-size: 30px;
+}
+.privacy_title::after {
+    width: 153px;
+}
+.questions_taital{
+    width: 60%;
+    font-size: 30px;
+}
+.questions_taital::after{
+    width: 153px;
 }
 .about_taital {
     width: 60%;
@@ -367,6 +395,21 @@
 }
 .banner_text {
     font-size: 14px;
+}
+
+.privacy_title {
+    width: 100%;
+    font-size: 30px;
+}
+.privacy_title::after {
+    width: 153px;
+}
+.questions_taital{
+    width: 100%;
+    font-size: 20px;
+}
+.questions_taital::after{
+    width: 120px;
 }
 .about_taital {
     width: 100%;

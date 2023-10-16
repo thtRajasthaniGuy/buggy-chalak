@@ -591,7 +591,7 @@ button {
     padding-bottom: 90px;
 }
 .questions_taital {
-    width: 35%;
+    width: 65%;
     float: left;
     font-size: 40px;
     color: #0f0f0f;
@@ -895,7 +895,7 @@ button {
     padding-bottom: 90px;
 }
 .contact_taital {
-    width: 40%;
+    width: 45%;
     float: left;
     font-size: 40px;
     color:#FCF6F5;
@@ -1176,6 +1176,24 @@ textarea#comment::placeholder {
     border: 0px;
 }
 
+.app_label {
+    width: 100%;
+    float: left;
+    font-size: 20px;
+    color:#FCF6F5;
+    margin-top: 20px;
+
+}
+.app_Store_Icon {
+    width : "75";
+    height : "50";
+    margin-bottom: -60px;
+    margin-top: -20px;
+}
+.app_label:hover {
+    color:  #2BAE66;
+}
+
 .social_icon {
     width: 100%;
     float: left;
@@ -1286,4 +1304,55 @@ textarea#comment::placeholder {
 
 ul.a {
     list-style-type: circle;
-  }
+}
+
+/* privacy section start */
+
+
+.privacy_section {
+    width: 100%;
+    float: left;
+    padding-bottom: 90px;
+}
+
+.privacy_title {
+    width: 45%;
+    float: left;
+    font-size: 40px;
+    color: #0f0f0f;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+}
+.privacy_title::after {
+    content: '';
+    position: absolute;
+    width: 193px;
+    height: 2px;
+    background-color: #252525;
+    left: initial;
+    right: 0px;
+    top: 44%;
+    z-index: -1;
+}
+
+.privacy_heading {
+    width: 100%;
+    float: left;
+    font-size: 20px;
+    color: #0f0f0f;
+    margin: 0px;
+    margin-top: 20px;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+}
+.privacy_text {
+    width: 100%;
+    float: left;
+    font-size: 16px;
+    color: #0f0f0f;
+    margin: 0px;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* privacy section end */
