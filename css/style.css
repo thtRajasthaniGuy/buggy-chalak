@@ -1345,14 +1345,64 @@ ul.a {
     font-weight: bold;
     font-family: 'Roboto', sans-serif;
 }
+.privacy_sub_heading {
+    width: 100%;
+    float: left;
+    font-size: 15px;
+    color: #0f0f0f;
+    margin: 0px;
+    margin-top: 20px;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+}
+
+.privacy_nested_sub_heading {
+    width: 100%;
+    float: left;
+    font-size: 13px;
+    color: #0f0f0f;
+    margin: 0px;
+    margin-top: 20px;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+}
 .privacy_text {
     width: 100%;
     float: left;
     font-size: 16px;
     color: #0f0f0f;
     margin: 0px;
+    margin-top: 10px;
     font-weight: 500;
     font-family: 'Roboto', sans-serif;
 }
+
+.privacy_nested_text {
+    width: 100%;
+    float: left;
+    font-size: 16px;
+    color: #0f0f0f;
+    margin: 0px;
+    margin-top: 10px;
+    margin-left: 25px;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.privacy_2nested_text {
+    width: 100%;
+    float: left;
+    font-size: 14px;
+    color: #0f0f0f;
+    margin: 0px;
+    margin-top: 10px;
+    margin-left: 50px;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
 
 /* privacy section end */
