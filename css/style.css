@@ -520,6 +520,28 @@ button {
     padding-bottom: 50px;
 }
 
+
+
+
+@media (min-width:250px) {
+    .work_section_box {
+        width: 100%; 
+        background-color:  #2BAE66;
+        padding: 55px 30px 100px 30px;
+    }
+}
+@media (min-width:900px) {
+    .work_section_box {
+        width: 100%;
+        display: flex;
+        background-color:  #2BAE66;
+        padding: 55px 30px 100px 30px;
+        box-shadow: 0px 2px 12px 10px #f3f2f2;
+
+    }
+}
+
+
 .work_bt {
     width: 170px;
     float: right;
