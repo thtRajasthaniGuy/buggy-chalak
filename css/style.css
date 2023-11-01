@@ -521,8 +521,6 @@ button {
 }
 
 
-
-
 @media (min-width:250px) {
     .work_section_box {
         width: 100%; 
@@ -571,6 +569,9 @@ button {
     box-shadow: 0px 0px 2px 2px #edf0f2;
     border-radius: 3px;
     margin-top: 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 .work_selection_text{
     width: 100%;
@@ -596,6 +597,37 @@ button {
     .work_selection_left {
        margin-left: 1px;
     }
+}
+.count_box_icon {
+    width: 150px;
+    padding: 10px;
+    background-color: #FCF6F5;
+    box-shadow: 0px 0px 2px 2px #edf0f2;
+    border-radius: 3px;
+    margin-top: 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+.work_box {
+    width: 100%;
+    float: left;
+    font-size: 20px;
+    color:#FCF6F5;
+    text-align: center;
+    padding: 10px 0px;
+    font-family: 'Roboto', sans-serif;
+    border: 2px solid#FCF6F5;;
+    border-radius: 12px;
+    padding: 5px;
+    margin: 10px;
+}
+.work_box:hover {
+    color:#FCF6F5;
+    background-color: #9cb1a7;
 }
 
 /* How it Works section start */
