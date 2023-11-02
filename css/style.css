@@ -582,10 +582,11 @@ button {
     font-family: 'Roboto', sans-serif;
 }
 .work_ipsum_text {
-    width: 68%;
+    width: 100%;
     font-size: 15px;
     color:#FCF6F5;
     margin: 0px;
+    text-align: center;
 }
 
 @media (min-width:250px) {
@@ -609,8 +610,6 @@ button {
     margin-left: auto;
     margin-right: auto;
 }
-
-
 
 .work_box {
     width: 100%;
@@ -1045,14 +1044,26 @@ textarea#comment::placeholder {
     padding-bottom: 180px;
 }
 .testimonial_taital{
-    width: 100%;
+    width: 45%;
     float: left;
     font-size: 40px;
     color: #2c2420;
-    text-align: center;
     font-weight: bold;
     font-family: 'Roboto', sans-serif;
 }
+
+.testimonial_taital::after {
+    content: '';
+    position: absolute;
+    width: 193px;
+    height: 2px;
+    background-color: #252525;
+    left: initial;
+    right: 0px;
+    top: 44%;
+    z-index: -1;
+}
+
 .testimonial_text{
     width: 100%;
     float: left;
@@ -1076,15 +1087,14 @@ textarea#comment::placeholder {
 }
 .jonimo_text{
     width: 100%;
-    font-size: 20px;
-    text-transform: uppercase;
-    color:  #2BAE66;
+    font-size: 22px;
+    color: #000;
     font-weight: bold;
     font-family: 'Roboto', sans-serif;
 }
 .dummy_text{
     width: 100%;
-    font-size: 16px;
+    font-size: 18px;
     color: #000;
     margin: 0px;
     padding-top: 20px;
@@ -1097,14 +1107,11 @@ textarea#comment::placeholder {
 .quick_icon{
     display: block;
     margin : auto;
-     
+    text-align: center;
 }
 .driver_face{
     border-radius: 50%;  
 }
-/*.quick_icon_1{
-    display: none;
-}*/
 
 .testimonial_box:hover{
     background-color:  #2BAE66;
@@ -1115,15 +1122,6 @@ textarea#comment::placeholder {
 .testimonial_box:hover .jonimo_text{
     color:#FCF6F5;
 }
-/*.testimonial_box:hover .quick_icon_1{
-    display: block;
-}
-.testimonial_box:hover .quick_icon{
-    display: none;
-}
-.testimonial_box:hover .jonimo_taital_main{
-    border-bottom: 1px solid#FCF6F5;
-}*/
 
 #my_carousel .carousel-indicators {
     bottom: -100px;

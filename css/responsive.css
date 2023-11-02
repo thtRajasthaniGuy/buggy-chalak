@@ -179,7 +179,9 @@
     width: 45%;
 }
 
-
+.testimonial_taital {
+    width: 47%;
+}
 
 
 }
@@ -240,6 +242,9 @@
   background-size: cover;
 }
 .contact_taital {
+    width: 63%;
+}
+.testimonial_taital {
     width: 63%;
 }
 .testimonial_box {
@@ -349,6 +354,13 @@
 .contact_taital::after {
     width: 110px;
 }
+.testimonial_taital {
+    width: 60%;
+    font-size: 30px;
+}
+.testimonial_taital::after {
+    width: 110px;
+}
 .massage-bt{
   height: 145px;
 }
@@ -455,6 +467,13 @@
     font-size: 30px;
 }
 .contact_taital::after {
+    width: 110px;
+}
+.testimonial_taital {
+    width: 100%;
+    font-size: 30px;
+}
+.testimonial_taital::after {
     width: 110px;
 }
 .massage-bt{
