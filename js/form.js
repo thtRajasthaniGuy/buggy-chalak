@@ -86,6 +86,8 @@ window.onload = function () {
    captains_section.style.display = "None";
    captains_section1.style.display = "None";
    captains_section2.style.display = "None";
+
+   countboxvalfunction();
 }
 
 
@@ -112,4 +114,13 @@ function changeWorkView(id) {
       captains_section1.style.display = "None";
       captains_section2.style.display = "None";
    }
+}
+
+function countboxvalfunction() {
+   
+   document.getElementById("count_box_val1").innerHTML = Math.floor((Math.random() * 100000) + 1) + ' +';
+   document.getElementById("count_box_val2").innerHTML = Math.floor((Math.random() * 100000) + 1) + ' +';
+   document.getElementById("count_box_val3").innerHTML = Math.floor((Math.random() * 100000) + 1) + ' +';
+   document.getElementById("count_box_val4").innerHTML = Math.floor((Math.random() * 100000) + 1) + ' +';
+   
 }
