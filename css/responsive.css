@@ -331,6 +331,13 @@
 .about_section_2{
   padding-bottom: 0px;
 }
+.ride_with_us_taital {
+    width: 60%;
+    font-size: 30px;
+}
+.ride_with_us_taital::after {
+    width: 153px;
+}
 .services_taital {
     width: 60%;
     font-size: 30px;
@@ -445,6 +452,13 @@
 }
 .about_section_2{
   padding-bottom: 0px;
+}
+.ride_with_us_taital {
+    width: 100%;
+    font-size: 20px;
+}
+.ride_with_us_taital::after {
+    width: 153px;
 }
 .services_taital {
     width: 100%;

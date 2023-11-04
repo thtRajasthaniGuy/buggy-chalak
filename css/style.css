@@ -520,6 +520,10 @@ button {
     padding-bottom: 50px;
 }
 
+.work_section2_row {
+    margin-bottom: 25px;
+}
+
 
 @media (min-width:250px) {
     .work_section_box {
@@ -589,16 +593,6 @@ button {
     text-align: center;
 }
 
-@media (min-width:250px) {
-    .work_selection_left {
-        margin-left: 55px;
-    }
-}
-@media (min-width:900px) {
-    .work_selection_left {
-       margin-left: 1px;
-    }
-}
 .count_box_icon {
     width: 150px;
     padding: 10px;
@@ -707,9 +701,9 @@ button {
     margin-right: 0.5em;
     margin-left: 1.0em;
     margin-top: 12px;
-  }
+}
   
-  .active_questions:after {
+.active_questions:after {
     /*content: "\2212";*/
     content: "";
     width: 8px;
@@ -719,8 +713,87 @@ button {
     transform: rotate(-45deg);
     margin-right: 0.5em;
     margin-left: 1.0em;
-  }
+}
+
+/* ride_with_us_section start */
   
+@media (min-width:250px) {
+    .ride_with_us_section_box {
+        width: 100%; 
+        background-color:  #2BAE66;
+        padding: 55px 30px 100px 30px;
+    }
+}
+@media (min-width:900px) {
+    .ride_with_us_section_box {
+        width: 100%;
+        display: flex;
+        background-color:  #2BAE66;
+        padding: 55px 30px 100px 30px;
+        box-shadow: 0px 2px 12px 10px #f3f2f2;
+
+    }
+}
+
+.ride_with_us_section{
+    width: 100%;
+    float: left;
+    background-color: #2BAE66;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.ride_with_us_taital {
+    width: 55%;
+    float: left;
+    font-size: 40px;
+    color: #FCF6F5;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 40px;
+}
+.ride_with_us_taital::after {
+    content: '';
+    position: absolute;
+    width: 193px;
+    height: 2px;
+    background-color:#FCF6F5;
+    left: initial;
+    right: 0px;
+    top: 44%;
+}
+
+.ride_with_us_box {
+    width: 100%;
+    float: left;
+    font-size: 20px;
+    color:#FCF6F5;
+    text-align: center;
+    padding: 10px 0px;
+    font-family: 'Roboto', sans-serif;
+    border: 2px solid#FCF6F5;;
+    border-radius: 12px;
+    padding: 5px;
+    margin: 10px;
+}
+.ride_with_us_box:hover {
+    color:#FCF6F5;
+    background-color: #9cb1a7;
+}
+.ride_with_us_box_icon {
+    width: 150px;
+    padding: 10px;
+    background-color: #FCF6F5;
+    box-shadow: 0px 0px 2px 2px #edf0f2;
+    border-radius: 3px;
+    margin-top: 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* ride_with_us_section 4nd */
+
 /* services section start */
 
 @media (min-width:250px) {
@@ -954,6 +1027,7 @@ button {
     color:#FCF6F5;
     font-weight: bold;
     font-family: 'Roboto', sans-serif;
+    margin-bottom: 40px;
 }
 .contact_taital::after {
     content: '';
